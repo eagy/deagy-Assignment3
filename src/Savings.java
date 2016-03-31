@@ -12,11 +12,15 @@ public class Savings extends Account {
 	
 	@Override
 	public void withdraw(double amount) {
-		if (balance-amount < 0) {
-			System.out.println("Account has reached it's withdrawal limit.");
+		if(amount > 0) {
+			if (balance-amount < 0) {
+				System.out.println("Account has reached it's withdrawal limit.");
+			}
+			else 
+				balance -= amount;
 		}
-		else 
-			balance -= amount;
+		else
+			System.out.println("Cannot withdraw a negative amount!");
 	}
 
 }

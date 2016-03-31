@@ -13,11 +13,15 @@ public class Checking extends Account {
 	}
 	
 	public void withdraw(double amount) {
-		if(balance-amount < MAX_OVERDRAFT){
-			System.out.println("Account has reached it's withdrawal limit.");
+		if(amount > 0) {
+			if(balance-amount < MAX_OVERDRAFT){
+				System.out.println("Account has reached it's withdrawal limit.");
+			}
+			else
+				balance -= amount;
 		}
 		else
-			balance -= amount;
+			System.out.println("Cannot withdraw a negative amount.");
 	}
 
 }
