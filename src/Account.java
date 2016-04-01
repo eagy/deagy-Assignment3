@@ -1,5 +1,11 @@
 import java.util.Date;
 
+/**
+ * 
+ * @author Daniel Eagy
+ *
+ */
+
 public class Account {
 	protected int accountID; 
 	protected double balance;

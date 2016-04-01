@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author Daniel Eagy
+ *
+ */
 public class Checking extends Account {
 	private final double MAX_OVERDRAFT = -5000.00;
 	

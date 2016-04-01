@@ -1,4 +1,6 @@
-
+/**
+ * @author Daniel Eagy
+ */
 public class Savings extends Account {
 
 	public Savings() {
