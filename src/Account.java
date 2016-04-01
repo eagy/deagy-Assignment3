@@ -113,7 +113,7 @@ public class Account {
 				+ accountID
 				+ "\nBalance:\t\t"
 				+ String.format("%.02f", balance)
-				+ "\nMonthly Interest:\t"
+				+ "\nMonthly Interest Earned:\t"
 				+ String.format("%.02f", getMonthlyInterest())
 				+ "\nDate Created:\t\t"
 				+ getDateCreated();
