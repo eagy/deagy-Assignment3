@@ -12,6 +12,10 @@ public class Checking extends Account {
 		// TODO Auto-generated constructor stub
 	}
 	
+	/**
+	 * @param amount amount to be withdrawn from the account.
+	 */
+	@Override
 	public void withdraw(double amount) {
 		if(amount > 0) {
 			if(balance-amount < MAX_OVERDRAFT){

@@ -10,6 +10,9 @@ public class Savings extends Account {
 		// TODO Auto-generated constructor stub
 	}
 	
+	/**
+	 * @param amount amount to be withdrawn
+	 */
 	@Override
 	public void withdraw(double amount) {
 		if(amount > 0) {
