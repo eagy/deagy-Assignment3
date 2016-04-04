@@ -115,13 +115,13 @@ public class Account {
 	 * @return string representation of the account. 
 	 */
 	public String toString() {
-		return "Account ID:\t\t"
+		return "Account ID:\t\t\t"
 				+ accountID
-				+ "\nBalance:\t\t"
+				+ "\nBalance:\t\t\t$"
 				+ String.format("%.02f", balance)
-				+ "\nMonthly Interest Earned:\t"
+				+ "\nMonthly Interest Earned:\t$"
 				+ String.format("%.02f", getMonthlyInterest())
-				+ "\nDate Created:\t\t"
+				+ "\nDate Created:\t\t\t"
 				+ getDateCreated();
 	}
 }
